@@ -1,0 +1,42 @@
+body,html{
+    background-color: darkslategray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+   
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#mycanvas {
+
+    background-color: rgb(29, 27, 27);
+    border: 9px solid rgb(70, 66, 66);
+    position: fixed;
+    margin-left: 410px;
+    margin-top: 5px;
+    box-shadow: 3px 3px 5px rgb(255, 255, 255, 1.6);
+}
+
+.section-1{
+    
+    border: 1px solid gray;
+    padding:2px 60px;
+    background-color: silver;
+    margin:10px 40px;
+    
+}
+.controls ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:5px 40px;
+}
+
+
+.controls h3{
+   margin-top:0px;
+   margin-bottom:2px;
+}
+
